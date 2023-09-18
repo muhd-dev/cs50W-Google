@@ -1,0 +1,95 @@
+/* css for header */
+
+  ul, nav {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  #icon { 
+    height: 30px; 
+    width: 90px; 
+  } 
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size:14px;
+  }
+  li a:hover {
+    text-decoration: underline;
+  }
+  .grid{
+    height:23px;
+    position:relative;
+    bottom:4px;
+  }
+  .signbutton{
+    background-color: #4885ed;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
+  }
+
+#search-title {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 15px;
+    color: #d93025;
+    font: 20px, arial, sans-serif;
+    justify-content: left;
+}
+
+#search1 {
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    font: 20px, arial, sans-serif;
+}
+
+.form-input {
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 400px;
+    padding: 1px 8px;
+    margin-left: 40px;
+}
+
+#advanced-search {
+    margin-left: 45px;
+    margin-top: 30px;
+    justify-content: left;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-left: 500px;
+    background-color: #4885ed;
+    color: #fff;
+}
+.text-field {
+    margin-left: 40px;
+    width: 400px;
+}
+
+label {
+    font-size: 10px;
+}
+
+#link-back{
+    margin-left: 900px;
+}
